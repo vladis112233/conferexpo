@@ -1,6 +1,7 @@
 body{
   margin: 0;
   font-family: Arial;
+  position: relative;
 }
 
 .in-front-of-header{
@@ -285,8 +286,12 @@ body.sidebar-opened {overflow:hidden;}
 
 .under-menu{
   width: 100%;
-  /*border-top: 1px solid #e5e5e5;*/
   border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  top: -1px;
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .under-menu-container{
@@ -317,4 +322,33 @@ body.sidebar-opened {overflow:hidden;}
   .under-menu{
     display: none;
   }
+}
+
+.our-clients-box{
+
+}
+
+.our-clients-text{
+  text-align: center;
+  color: #182145;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.our-clients-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.clients-logo{
+  max-width: 400px;
+  width: 100%;
+}
+
+.partners-logo{
+
 }
