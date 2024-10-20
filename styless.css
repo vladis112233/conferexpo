@@ -324,18 +324,18 @@ body.sidebar-opened {overflow:hidden;}
   }
 }
 
-.our-clients-box{
+.our-clients-box-and-partners{
 
 }
 
-.our-clients-text{
+.our-clients-text-and-partners{
   text-align: center;
   color: #182145;
   font-size: 22px;
   font-weight: 700;
 }
 
-.our-clients-container{
+.our-clients-container-and-partners{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -349,6 +349,74 @@ body.sidebar-opened {overflow:hidden;}
   width: 100%;
 }
 
-.partners-logo{
+.our-services{
 
+}
+
+.our-services-container{
+
+}
+
+.our-services-text-and-photo{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 10px;
+}
+
+.photo-service{
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.text-service{
+  max-width: 600px;
+}
+
+.name-service{
+  font-weight: 700;
+  font-size: 18px;
+  color: #182145;
+  text-align: center;
+}
+
+.full-text-service{
+  font-size: 14px;
+}
+
+.weight-text{
+  font-weight: 700;
+}
+
+/*.flex-end{*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  gap: 1.5rem;*/
+/*  padding: 10px;*/
+/*}*/
+
+@media (max-width: 1144px){
+  .flex-end{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .photo-service{
+    max-width: 700px;
+  }
+
+  .text-service{
+    max-width: 700px;
+  }
+}
+.text-additional{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
