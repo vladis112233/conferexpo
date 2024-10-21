@@ -292,6 +292,7 @@ body.sidebar-opened {overflow:hidden;}
   background: white;
   padding-top: 10px;
   padding-bottom: 10px;
+  z-index: 20;
 }
 
 .under-menu-container{
@@ -419,4 +420,63 @@ body.sidebar-opened {overflow:hidden;}
   flex-direction: column;
   align-items: center;
   padding: 10px;
+}
+
+.intro{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 500px;
+}
+
+.intro-media{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.intro-media-video{
+  /*filter: brightness();*/
+  max-width: 1600px;
+  width: 100%;
+}
+
+@media (max-width: 706px){
+  .intro-media-video{
+    width: auto;
+  }
+}
+
+
+
+
+
+.intro-content{
+  z-index: 10;
+  padding: 20px;
+  color: #182145;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.name-company{
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.name-service-about-us{
+  text-align: left;
+}
+
+.photo-about-us{
+
+}
+
+.name-values{
+  font-size: 30px;
+  font-weight: 700;
 }
