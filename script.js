@@ -130,3 +130,52 @@ function moveCarousel1() {
 
 // Меняем слайды каждые 6 секунд
 setInterval(moveCarousel1, 3000);
+
+
+
+const carousel3 = document.querySelector('.carousel3');
+const slides3 = carousel3.children;
+const totalSlides3 = slides3.length;
+const visibleSlides3 = 2; // Количество видимых слайдов
+let index3 = 0;
+
+// Функция для перемещения карусели
+function moveCarousel3() {
+  index3++;
+
+  // Если индекс превышает количество слайдов - возвращаемся к первому
+  if (index3 >= totalSlides3 - visibleSlides3 + 1) {
+    index3 = 0; // Возвращаемся к первому слайду
+  }
+
+  // Двигаем карусель на один слайд
+  carousel3.style.transform = `translateX(${-index3 * 300}px)`; // Сдвигаем на ширину одного слайда
+}
+
+// Меняем слайды каждые 3 секунды
+setInterval(moveCarousel3, 3000);
+
+
+
+
+const carousel4 = document.querySelector('.carousel4'); // Новый карусель
+const slides4 = carousel4.children; // Слайды второго каруселя
+const totalSlides4 = slides4.length; // Общее количество слайдов
+const visibleSlides4 = 5; // Количество видимых слайдов
+let index4 = 0; // Индекс для второго каруселя
+
+// Функция для перемещения карусели в обратном направлении
+function moveCarousel4() {
+  index4--; // Уменьшаем индекс для движения назад
+
+  // Если индекс меньше 0, возвращаемся к последнему слайду
+  if (index4 < 0) {
+    index4 = totalSlides4 - visibleSlides4; // Устанавливаем индекс на последний видимый слайд
+  }
+
+  // Двигаем карусель
+  carousel4.style.transform = `translateX(${-index4 * 300}px)`; // Сдвигаем на ширину слайдов
+}
+
+// Меняем слайды каждые 3 секунды
+setInterval(moveCarousel4, 3000);
