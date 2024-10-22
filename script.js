@@ -179,3 +179,27 @@ function moveCarousel4() {
 
 // Меняем слайды каждые 3 секунды
 setInterval(moveCarousel4, 3000);
+
+
+
+const carousel5 = document.querySelector('.carousel5'); // Находим элемент новой карусели
+const slides5 = carousel5.children;
+const totalSlides5 = slides5.length;
+const visibleSlides5 = 3; // Количество видимых слайдов
+let index5 = 0;
+
+// Функция для перемещения новой карусели
+function moveCarousel5() {
+  index5++;
+
+  // Если индекс превышает количество слайдов, возвращаемся к первому
+  if (index5 >= totalSlides5 - visibleSlides5 + 1) {
+    index5 = 0; // Возвращаемся к первому слайду
+  }
+
+  // Двигаем карусель на один слайд
+  carousel5.style.transform = `translateX(${-index5 * 300}px)`; // Сдвигаем на ширину одного слайда
+}
+
+// Меняем слайды каждые 3 секунды
+setInterval(moveCarousel5, 3000);
