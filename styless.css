@@ -609,3 +609,61 @@ body.sidebar-opened {overflow:hidden;}
 /*.link-to-contact:hover{*/
 /*  color: #e35b34;*/
 /*}*/
+.contacts-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.phones-foot{
+  display: flex;
+  text-align: right;
+  /*border-right: 2px solid #182145;*/
+  padding-right: 1rem;
+  padding-top: 10px;
+  gap: 0.5rem;
+}
+
+.map{
+  max-width: 800px;
+  width: 100%;
+}
+
+.in-front-of-footer{
+  display: flex;
+  /* justify-content: space-between; */
+  background: #fafafa;
+  color: #182145;
+  padding: 20px;
+  /* border-bottom: 1px solid #e5e5e5; */
+  flex-direction: column;
+}
+
+.contact-footer-box{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.country{
+  color: #182145;
+  font-weight: 600;
+}
+
+.name{
+  color: #e35b34;
+  font-weight: 600;
+}
+
+.footer-country-phones{
+  /*border-top: 2px solid #e35b34 ;*/
+  border-bottom: 2px solid #e35b34;
+}
+
+.name-phone1{
+  color: #182145;
+}
