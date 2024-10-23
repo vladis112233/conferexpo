@@ -203,3 +203,57 @@ function moveCarousel5() {
 
 // Меняем слайды каждые 3 секунды
 setInterval(moveCarousel5, 3000);
+
+
+
+
+
+document.querySelectorAll('.a-li-under-menu').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault(); // Предотвращаем стандартное поведение якорной ссылки
+
+    const targetId = this.getAttribute('href'); // Получаем значение атрибута href
+    const targetElement = document.querySelector(targetId); // Находим элемент на странице
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop, // Позиция элемента на странице
+        behavior: 'smooth' // Плавная прокрутка
+      });
+    }
+  });
+});
+
+
+
+
+document.querySelectorAll('#menu-main-menu a').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault(); // Останавливаем стандартное поведение ссылки
+
+    const targetId = this.getAttribute('href'); // Извлекаем ID целевого элемента
+    const targetElement = document.querySelector(targetId); // Находим этот элемент на странице
+
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop, // Получаем позицию элемента
+        behavior: 'smooth' // Устанавливаем плавную прокрутку
+      });
+    }
+  });
+});
+
+
+document.querySelector('.button-to-contact .link-to-contact').addEventListener('click', function (e) {
+  e.preventDefault(); // Останавливаем стандартное поведение ссылки
+
+  const targetId = this.getAttribute('href'); // Извлекаем значение атрибута href
+  const targetElement = document.querySelector(targetId); // Находим целевой элемент по id
+
+  if (targetElement) {
+    window.scrollTo({
+      top: targetElement.offsetTop, // Позиция целевого элемента на странице
+      behavior: 'smooth' // Плавная прокрутка
+    });
+  }
+});
