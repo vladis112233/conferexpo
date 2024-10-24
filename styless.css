@@ -17,7 +17,6 @@ body{
 .logo{
   max-width: 400px;
   width: 100%;
-  /*padding: 20px;*/
 }
 
 .email{
@@ -37,12 +36,9 @@ body{
 
 .phones{
   display: flex;
-  /* flex-direction: column; */
-  /* align-items: flex-end; */
   text-align: right;
   border-right: 2px solid #182145;
   padding-right: 1rem;
-  /* flex-wrap: wrap; */
   padding-top: 10px;
   gap: 0.5rem;
 }
@@ -395,14 +391,6 @@ body.sidebar-opened {overflow:hidden;}
   font-weight: 700;
 }
 
-/*.flex-end{*/
-/*  display: flex;*/
-/*  flex-wrap: wrap;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  gap: 1.5rem;*/
-/*  padding: 10px;*/
-/*}*/
 
 @media (max-width: 1144px){
   .flex-end{
@@ -443,7 +431,6 @@ body.sidebar-opened {overflow:hidden;}
 }
 
 .intro-media-video{
-  /*filter: brightness();*/
   max-width: 1600px;
   width: 100%;
 }
@@ -453,10 +440,6 @@ body.sidebar-opened {overflow:hidden;}
     width: auto;
   }
 }
-
-
-
-
 
 .intro-content{
   z-index: 10;
@@ -485,54 +468,33 @@ body.sidebar-opened {overflow:hidden;}
   font-weight: 700;
 }
 
-/*.photo-carousel{*/
-/*  width: 300px;*/
-/*}*/
-
-/*.carousel-container {*/
-/*  max-width: 1400px; !* Ширина контейнера *!*/
-/*  overflow: hidden; !* Скрываем элементы за пределами контейнера *!*/
-/*  margin: 0 auto; !* Выравниваем по центру *!*/
-/*}*/
-
-/*.carousel {*/
-/*  display: flex; !* Размещаем изображения в ряд *!*/
-/*  transition: transform 0.5s ease-in-out; !* Плавная анимация прокрутки *!*/
-/*  align-items: center;*/
-/*}*/
-
-/*.carousel img {*/
-/*  width: 300px; !* Устанавливаем ширину для каждого изображения *!*/
-/*  !*height: auto; !* Автоматическая высота *!*!*/
-/*}*/
-
 .photo-carousel {
   width: 300px;
   height: 200px;
 }
 
 .carousel-container {
-  max-width: 1100px; /* Ширина контейнера */
-  overflow: hidden; /* Скрываем элементы за пределами контейнера */
-  margin: 0 auto; /* Выравниваем по центру */
+  max-width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .carousel {
-  display: flex; /* Размещаем изображения в ряд */
-  transition: transform 0.5s ease-in-out; /* Плавная анимация прокрутки */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   align-items: center;
   gap: 2rem;
 }
 
 .carousel-container1 {
-  max-width: 1100px; /* Ширина контейнера */
-  overflow: hidden; /* Скрываем элементы за пределами контейнера */
-  margin: 0 auto; /* Выравниваем по центру */
+  max-width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .carousel1 {
-  display: flex; /* Размещаем изображения в ряд */
-  transition: transform 0.5s ease-in-out; /* Плавная анимация прокрутки */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   align-items: center;
   gap: 2rem;
 }
@@ -548,41 +510,41 @@ body.sidebar-opened {overflow:hidden;}
 }
 
 .carousel-container3{
-  max-width: 1100px; /* Ширина контейнера */
-  overflow: hidden; /* Скрываем элементы за пределами контейнера */
-  margin: 0 auto; /
+  max-width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .carousel3{
-  display: flex; /* Размещаем изображения в ряд */
-  transition: transform 0.5s ease-in-out; /* Плавная анимация прокрутки */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   align-items: center;
   gap: 2rem;
 }
 
 
 .carousel-container4{
-  max-width: 1100px; /* Ширина контейнера */
-  overflow: hidden; /* Скрываем элементы за пределами контейнера */
-  margin: 0 auto; /
+  max-width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .carousel4{
-  display: flex; /* Размещаем изображения в ряд */
-  transition: transform 0.5s ease-in-out; /* Плавная анимация прокрутки */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   align-items: center;
   gap: 2rem;
 }
 
 .carousel-container5{
-  max-width: 1100px; /* Ширина контейнера */
-  overflow: hidden; /* Скрываем элементы за пределами контейнера */
-  margin: 0 auto; /
+  max-width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .carousel5{
-  display: flex; /* Размещаем изображения в ряд */
-  transition: transform 0.5s ease-in-out; /* Плавная анимация прокрутки */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
   align-items: center;
   gap: 2rem;
 }
@@ -612,9 +574,7 @@ body.sidebar-opened {overflow:hidden;}
   text-decoration: none;
 }
 
-/*.link-to-contact:hover{*/
-/*  color: #e35b34;*/
-/*}*/
+
 .contacts-footer{
   display: flex;
   flex-direction: row;
@@ -628,7 +588,6 @@ body.sidebar-opened {overflow:hidden;}
 .phones-foot{
   display: flex;
   text-align: right;
-  /*border-right: 2px solid #182145;*/
   padding-right: 1rem;
   padding-top: 10px;
   gap: 0.5rem;
@@ -641,11 +600,9 @@ body.sidebar-opened {overflow:hidden;}
 
 .in-front-of-footer{
   display: flex;
-  /* justify-content: space-between; */
   background: #fafafa;
   color: #182145;
   padding: 20px;
-  /* border-bottom: 1px solid #e5e5e5; */
   flex-direction: column;
 }
 
@@ -666,7 +623,6 @@ body.sidebar-opened {overflow:hidden;}
 }
 
 .footer-country-phones{
-  /*border-top: 2px solid #e35b34 ;*/
   border-bottom: 2px solid #e35b34;
 }
 
