@@ -4,6 +4,10 @@ body{
   position: relative;
 }
 
+a{
+  text-decoration: none;
+}
+
 .in-front-of-header{
   display: flex;
   justify-content: space-between;
