@@ -663,7 +663,7 @@ body.sidebar-opened {overflow:hidden;}
 }
 
 .main-name{
-  background: url(images/port2.jpeg) center;
+  background: url(images/port3.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 2560px;
@@ -780,4 +780,54 @@ th {
 .orange{
   color: #f16500;
   font-size: 38px;
+}
+
+.photo-speak{
+  max-width: 400px;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.speakers1{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: 3px solid #009fe3;
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.speakers2{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row-reverse;
+  border-bottom: 3px solid #009fe3;
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 831px){
+  .speakers2{
+    flex-direction: row;
+  }
+}
+
+.speakers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-speak{
+  max-width: 400px;
+  width: 100%;
+  color: black;
+  font-weight: 900;
 }
