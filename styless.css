@@ -702,7 +702,9 @@ body.sidebar-opened {overflow:hidden;}
 }
 
 .date-location{
-
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .date-location1{
@@ -830,4 +832,24 @@ th {
   width: 100%;
   color: black;
   font-weight: 900;
+}
+
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  gap: 2rem;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.footer-unido{
+  background: #2196F3;
+  padding: 20px;
+}
+
+.icon-d-l-d{
+  width: 30px;
 }
