@@ -447,6 +447,11 @@ body.sidebar-opened {overflow:hidden;}
   width: 100%;
 }
 
+.intro-media-video1{
+  max-width: 1600px;
+  width: 100%;
+}
+
 @media (max-width: 706px){
   .intro-media-video{
     width: auto;
