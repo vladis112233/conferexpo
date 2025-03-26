@@ -27,7 +27,7 @@
   }
 
   .description{
-    padding: 0 24px;
+    padding: 0;
   }
 }
 
@@ -38,5 +38,10 @@
 
   .description1{
     font-size: 12px;
+  }
+
+  .description-block{
+    margin: 0;
+    border-radius: 0;
   }
 }
