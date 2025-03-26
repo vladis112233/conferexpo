@@ -836,14 +836,23 @@ th {
   /*flex-wrap: wrap;*/
   /*justify-content: center;*/
 
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*text-align: center;*/
+  /*border: 6px solid #009fe3;*/
+  /*padding: 10px;*/
+  /*max-width: 400px;*/
+  /*width: 100%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 6px solid #009fe3;
+  border: 6px solid white;
   padding: 10px;
   max-width: 400px;
   width: 100%;
+  border-radius: 12px;
 }
 
 .speakers2{
@@ -857,14 +866,23 @@ th {
   /*padding: 10px;*/
   /*flex-wrap: wrap;*/
   /*justify-content: center;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*text-align: center;*/
+  /*border: 6px solid #009fe3;*/
+  /*padding: 10px;*/
+  /*max-width: 400px;*/
+  /*width: 100%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 6px solid #009fe3;
+  border: 6px solid white;
   padding: 10px;
   max-width: 400px;
   width: 100%;
+  border-radius: 12px;
 }
 
 @media (max-width: 831px){
