@@ -25,4 +25,8 @@
     background-attachment: local;
     height: 100%;
   }
+
+  .description{
+    padding: 0 24px;
+  }
 }
