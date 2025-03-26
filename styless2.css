@@ -30,3 +30,13 @@
     padding: 0 24px;
   }
 }
+
+@media (max-width: 800px){
+  .eip{
+    font-size: 24px;
+  }
+
+  .description1{
+    font-size: 12px;
+  }
+}
