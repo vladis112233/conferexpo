@@ -765,7 +765,8 @@ body.sidebar-opened {overflow:hidden;}
   flex-direction: column;
   align-items: center;
   padding: 0 10px;
-  background: url(images/2148211959.jpg) center;
+  background: url(images/3548.jpg) center;
+  /*background: #2196F3;*/
 }
 
 .description-block{
@@ -853,6 +854,7 @@ th {
   max-width: 400px;
   width: 100%;
   border-radius: 12px;
+  background: white;
 }
 
 .speakers2{
@@ -896,7 +898,9 @@ th {
   flex-direction: column;
   align-items: center;
   background: url(images/abstract-textured-backgound.jpg);
+  /*background: #2196F3;*/
   margin-top: -10px;
+  padding-bottom: 10px;
 }
 
 .speakers-box{
@@ -904,14 +908,16 @@ th {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
+  max-width: 1300px;
 }
 
 .description-speak{
   max-width: 400px;
   width: 100%;
-  color: white;
+  color: black;
   font-weight: 900;
+  text-align: left;
 }
 
 .icons{
