@@ -45,3 +45,27 @@
     border-radius: 0;
   }
 }
+
+.carousel-container {
+  overflow: hidden;
+  max-width: 1000px; /* Измени на нужную ширину */
+  position: relative;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+/*.carousel-track img {*/
+/*  max-width: 500px;*/
+/*  width: 100%;!* Измени на нужную ширину *!*/
+/*  !*height: auto;*!*/
+/*  margin-right: 20px;*/
+/*}*/
